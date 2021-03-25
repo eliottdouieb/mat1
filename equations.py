@@ -55,4 +55,4 @@ def calculate(x):
 
 x=input("choose x : ")
 x=float(x)
-print(exponent(x)," ",XtimesY(7,x)," ",XtimesY(x,(-1))," ",sqrt(x,x)," ",calculate(x))
+print(calculate(x))
