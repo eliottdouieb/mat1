@@ -37,7 +37,7 @@ def Ln(x):
                 continue
             else :
                 break
-        return yn
+        return yn1
 
 
 def XtimesY(x,y):
