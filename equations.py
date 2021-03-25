@@ -53,6 +53,3 @@ def sqrt(x,y):
 def calculate(x):
     return (exponent(x)*XtimesY(7,x)*XtimesY(x,(-1))*sqrt(x,x))
 
-x=input("choose x : ")
-x=float(x)
-print(calculate(x))
