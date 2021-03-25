@@ -41,15 +41,21 @@ def Ln(x):
 
 
 def XtimesY(x,y):
-    a=exponent(y*Ln(x))
-    return a
+    if x<=0.0 :
+        return 0.0
+    else :
+        a=exponent(y*Ln(x))
+        return a
 
 def sqrt(x,y):
-    if x<=0:
-        return 0
+    if x<=0.0:
+        return 0.0
     else:
         return XtimesY(y,(1/x))
 
 def calculate(x):
-    return (exponent(x)*XtimesY(7,x)*XtimesY(x,(-1))*sqrt(x,x))
+    if x<= 0.0:
+        return 0.0
+    else :
+        return (exponent(x)*XtimesY(7,x)*XtimesY(x,(-1))*sqrt(x,x))
 
