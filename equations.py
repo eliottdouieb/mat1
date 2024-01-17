@@ -1,3 +1,4 @@
+import pandas as pd
 def exponent(x):
     n=1.0
     b=1.0
