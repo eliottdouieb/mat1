@@ -61,4 +61,13 @@ def calculate(x):
         return 0.0
     else :
         return (exponent(x)*XtimesY(7,x)*XtimesY(x,(-1))*sqrt(x,x))
+    
+
+def sum(L) : 
+
+    S = 0 
+    for i in L : 
+        S = S+i 
+    return S
+
 
