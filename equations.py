@@ -1,4 +1,6 @@
 import pandas as pd
+import numpy as np
+
 def exponent(x):
     n=1.0
     b=1.0
